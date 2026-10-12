@@ -40,57 +40,58 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Central Bank of Turkmenistan table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Central Bank of Turkmenistan — 47 rates. Updated 2026-10-09.
+Published **2026-10-12** by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | TMT | reference | 0.953 |
-| AFN | TMT | reference | 0.054046 |
-| AMD | TMT | reference | 0.009722 |
-| AUD | TMT | reference | 2.4346 |
+| AFN | TMT | reference | 0.054196 |
+| AMD | TMT | reference | 0.009695 |
+| AUD | TMT | reference | 2.4437 |
 | AZN | TMT | reference | 2.0649 |
-| BYN | TMT | reference | 1.1421 |
-| CAD | TMT | reference | 2.4549 |
-| CHF | TMT | reference | 4.1946 |
-| CNY | TMT | reference | 0.5222 |
-| CZK | TMT | reference | 0.1605 |
-| DKK | TMT | reference | 0.524 |
+| BYN | TMT | reference | 1.1577 |
+| CAD | TMT | reference | 2.4555 |
+| CHF | TMT | reference | 4.2164 |
+| CNY | TMT | reference | 0.523 |
+| CZK | TMT | reference | 0.161 |
+| DKK | TMT | reference | 0.5245 |
 | EGP | TMT | reference | 0.0669 |
-| EUR | TMT | reference | 3.9158 |
-| GBP | TMT | reference | 4.6176 |
-| GEL | TMT | reference | 1.3645 |
+| EUR | TMT | reference | 3.9204 |
+| GBP | TMT | reference | 4.6309 |
+| GEL | TMT | reference | 1.3661 |
 | HKD | TMT | reference | 0.446 |
-| ILS | TMT | reference | 1.1384 |
-| INR | TMT | reference | 0.036161 |
-| IRR | TMT | reference | 0.00000198 |
-| JPY | TMT | reference | 0.022122 |
+| ILS | TMT | reference | 1.1438 |
+| INR | TMT | reference | 0.036172 |
+| IQD | TMT | reference | 0.0023163 |
+| IRR | TMT | reference | 0.00000197 |
+| JPY | TMT | reference | 0.022109 |
 | KGS | TMT | reference | 0.040023 |
-| KRW | TMT | reference | 0.0026044 |
+| KRW | TMT | reference | 0.0026115 |
 | KWD | TMT | reference | 11.3599 |
-| KZT | TMT | reference | 0.007785 |
-| MDL | TMT | reference | 0.1969 |
-| MKD | TMT | reference | 0.063799 |
+| KZT | TMT | reference | 0.007719 |
+| MDL | TMT | reference | 0.1973 |
+| MKD | TMT | reference | 0.063845 |
 | MMK | TMT | reference | 0.001672 |
 | MOP | TMT | reference | 0.433 |
-| MRU | TMT | reference | 0.08755 |
-| MYR | TMT | reference | 0.8562 |
-| NOK | TMT | reference | 0.3658 |
-| PKR | TMT | reference | 0.012645 |
-| PLN | TMT | reference | 0.8946 |
-| QAR | TMT | reference | 0.9602 |
-| RON | TMT | reference | 0.7322 |
-| RUB | TMT | reference | 0.040864 |
-| SAR | TMT | reference | 0.9323 |
-| SEK | TMT | reference | 0.3497 |
-| SGD | TMT | reference | 2.7307 |
-| THB | TMT | reference | 0.104012 |
-| TJS | TMT | reference | 0.3813 |
+| MRU | TMT | reference | 0.08761 |
+| MYR | TMT | reference | 0.8572 |
+| NOK | TMT | reference | 0.3663 |
+| PKR | TMT | reference | 0.012647 |
+| PLN | TMT | reference | 0.8954 |
+| QAR | TMT | reference | 0.9624 |
+| RON | TMT | reference | 0.7348 |
+| RUB | TMT | reference | 0.04113 |
+| SAR | TMT | reference | 0.9321 |
+| SEK | TMT | reference | 0.3502 |
+| SGD | TMT | reference | 2.7335 |
+| THB | TMT | reference | 0.104509 |
+| TJS | TMT | reference | 0.3825 |
 | TRY | TMT | reference | 0.0711 |
-| TWD | TMT | reference | 0.109642 |
+| TWD | TMT | reference | 0.109683 |
 | UAH | TMT | reference | 0.078 |
 | USD | TMT | reference | 3.5 |
-| UZS | TMT | reference | 0.0002966 |
-| XDR | TMT | reference | 4.7327 |
+| UZS | TMT | reference | 0.0002949 |
+| XDR | TMT | reference | 4.7364 |
 
 Source: [Official rates published by CBT, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbt/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
