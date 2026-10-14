@@ -150,7 +150,7 @@ const pair = await getRate('USD', 'TMT', { apiKey: 'art_live_...' });
 {
   bank: 'cbt',
   name: 'Central Bank of Turkmenistan',
-  rate_date: '2026-10-12',   // Central Bank of Turkmenistan's own publication date
+  rate_date: '2026-10-14',   // Central Bank of Turkmenistan's own publication date
   source: 'USD',
   target: 'TMT',
   rate: 3.5,
@@ -178,7 +178,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbt',
   name: 'Central Bank of Turkmenistan',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-14',
   rates: [
     { "base": "USD", "quote": "TMT", "type": "reference", "value": 3.5 },
     // … the rest of the published table (48 currencies vs TMT)
@@ -220,7 +220,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-turkmenistan-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'TMT', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'TMT', from: '2026-01-01', to: '2026-10-14' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -233,11 +233,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'TMT',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-14',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 3.5, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-14', rate: 3.5, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -356,9 +356,9 @@ getRate('USD', 'TMT', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/cbt.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/cbt.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbt/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbt/latest.json`
 
 ## 🔗 Links
 
