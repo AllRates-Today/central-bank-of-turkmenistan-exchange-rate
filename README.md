@@ -33,67 +33,70 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cbt').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Central Bank of Turkmenistan table](https://allratestoday.com/api/open/central-bank/cbt/table.svg)](https://allratestoday.com/central-bank-rates-api/cbt/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | TMT | reference | 0.953 |
-| AFN | TMT | reference | 0.053979 |
-| AMD | TMT | reference | 0.009749 |
-| AUD | TMT | reference | 2.4238 |
+| AFN | TMT | reference | 0.053987 |
+| AMD | TMT | reference | 0.009686 |
+| AUD | TMT | reference | 2.4304 |
 | AZN | TMT | reference | 2.0649 |
-| BYN | TMT | reference | 1.1632 |
-| CAD | TMT | reference | 2.4655 |
-| CHF | TMT | reference | 4.2214 |
-| CNY | TMT | reference | 0.5231 |
-| CZK | TMT | reference | 0.1614 |
-| DKK | TMT | reference | 0.5255 |
-| EGP | TMT | reference | 0.0656 |
-| EUR | TMT | reference | 3.9281 |
-| GBP | TMT | reference | 4.6417 |
-| GEL | TMT | reference | 1.3667 |
+| BYN | TMT | reference | 1.1669 |
+| CAD | TMT | reference | 2.4758 |
+| CHF | TMT | reference | 4.2481 |
+| CNY | TMT | reference | 0.5235 |
+| CZK | TMT | reference | 0.1618 |
+| DKK | TMT | reference | 0.5263 |
+| EGP | TMT | reference | 0.0655 |
+| EUR | TMT | reference | 3.9337 |
+| GBP | TMT | reference | 4.6648 |
+| GEL | TMT | reference | 1.3635 |
 | HKD | TMT | reference | 0.446 |
-| ILS | TMT | reference | 1.1286 |
-| INR | TMT | reference | 0.036823 |
-| IQD | TMT | reference | 0.0023179 |
+| ILS | TMT | reference | 1.1249 |
+| INR | TMT | reference | 0.036858 |
+| IQD | TMT | reference | 0.0023163 |
 | IRR | TMT | reference | 0.00000197 |
-| JPY | TMT | reference | 0.022194 |
+| JPY | TMT | reference | 0.022153 |
 | KGS | TMT | reference | 0.040023 |
-| KRW | TMT | reference | 0.0026044 |
+| KRW | TMT | reference | 0.0026233 |
 | KWD | TMT | reference | 11.3599 |
-| KZT | TMT | reference | 0.007725 |
-| MDL | TMT | reference | 0.1966 |
-| MKD | TMT | reference | 0.064009 |
+| KZT | TMT | reference | 0.007742 |
+| MDL | TMT | reference | 0.1969 |
+| MKD | TMT | reference | 0.064138 |
 | MMK | TMT | reference | 0.001672 |
 | MOP | TMT | reference | 0.433 |
-| MRU | TMT | reference | 0.08764 |
-| MYR | TMT | reference | 0.8578 |
-| NOK | TMT | reference | 0.368 |
-| PKR | TMT | reference | 0.012649 |
-| PLN | TMT | reference | 0.8993 |
-| QAR | TMT | reference | 0.9602 |
-| RON | TMT | reference | 0.7365 |
-| RUB | TMT | reference | 0.04181 |
-| SAR | TMT | reference | 0.9326 |
-| SEK | TMT | reference | 0.3511 |
-| SGD | TMT | reference | 2.7299 |
-| THB | TMT | reference | 0.104509 |
-| TJS | TMT | reference | 0.3817 |
-| TRY | TMT | reference | 0.0708 |
-| TWD | TMT | reference | 0.108118 |
-| UAH | TMT | reference | 0.078 |
+| MRU | TMT | reference | 0.08737 |
+| MYR | TMT | reference | 0.8581 |
+| NOK | TMT | reference | 0.3718 |
+| PKR | TMT | reference | 0.012658 |
+| PLN | TMT | reference | 0.9008 |
+| QAR | TMT | reference | 0.9612 |
+| RON | TMT | reference | 0.7394 |
+| RUB | TMT | reference | 0.042133 |
+| SAR | TMT | reference | 0.9327 |
+| SEK | TMT | reference | 0.3536 |
+| SGD | TMT | reference | 2.7352 |
+| THB | TMT | reference | 0.104696 |
+| TJS | TMT | reference | 0.3804 |
+| TRY | TMT | reference | 0.0707 |
+| TWD | TMT | reference | 0.107928 |
+| UAH | TMT | reference | 0.0779 |
 | USD | TMT | reference | 3.5 |
-| UZS | TMT | reference | 0.0002931 |
-| XDR | TMT | reference | 4.7349 |
+| UZS | TMT | reference | 0.0002904 |
+| XDR | TMT | reference | 4.7476 |
+
+</details>
 
 Source: [Official rates published by CBT, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbt/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -366,7 +369,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/central-bank-of-turkmenistan-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/central-bank-of-turkmenistan-exchange-rate)
 
 ## 📜 License
