@@ -47,58 +47,58 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
 | AED | TMT | reference | 0.953 |
-| AFN | TMT | reference | 0.053987 |
+| AFN | TMT | reference | 0.054012 |
 | AMD | TMT | reference | 0.009749 |
-| AUD | TMT | reference | 2.4416 |
+| AUD | TMT | reference | 2.4469 |
 | AZN | TMT | reference | 2.0649 |
-| BYN | TMT | reference | 1.1703 |
-| CAD | TMT | reference | 2.4832 |
-| CHF | TMT | reference | 4.245 |
-| CNY | TMT | reference | 0.5239 |
-| CZK | TMT | reference | 0.1613 |
-| DKK | TMT | reference | 0.525 |
-| EGP | TMT | reference | 0.0651 |
-| EUR | TMT | reference | 3.9239 |
-| GBP | TMT | reference | 4.6648 |
+| BYN | TMT | reference | 1.1745 |
+| CAD | TMT | reference | 2.4899 |
+| CHF | TMT | reference | 4.2435 |
+| CNY | TMT | reference | 0.5241 |
+| CZK | TMT | reference | 0.1615 |
+| DKK | TMT | reference | 0.5254 |
+| EGP | TMT | reference | 0.0644 |
+| EUR | TMT | reference | 3.9263 |
+| GBP | TMT | reference | 4.6711 |
 | GEL | TMT | reference | 1.3635 |
 | HKD | TMT | reference | 0.446 |
-| ILS | TMT | reference | 1.1261 |
-| INR | TMT | reference | 0.036864 |
+| ILS | TMT | reference | 1.1296 |
+| INR | TMT | reference | 0.036877 |
 | IQD | TMT | reference | 0.0023163 |
 | IRR | TMT | reference | 0.00000197 |
-| JPY | TMT | reference | 0.022127 |
+| JPY | TMT | reference | 0.022139 |
 | KGS | TMT | reference | 0.040023 |
-| KRW | TMT | reference | 0.0026324 |
+| KRW | TMT | reference | 0.0026368 |
 | KWD | TMT | reference | 11.3636 |
-| KZT | TMT | reference | 0.007736 |
-| MDL | TMT | reference | 0.1969 |
-| MKD | TMT | reference | 0.063892 |
+| KZT | TMT | reference | 0.00776 |
+| MDL | TMT | reference | 0.1963 |
+| MKD | TMT | reference | 0.063927 |
 | MMK | TMT | reference | 0.001672 |
-| MOP | TMT | reference | 0.4334 |
-| MRU | TMT | reference | 0.08752 |
-| MYR | TMT | reference | 0.8578 |
-| NOK | TMT | reference | 0.3714 |
-| PKR | TMT | reference | 0.012649 |
-| PLN | TMT | reference | 0.8979 |
+| MOP | TMT | reference | 0.433 |
+| MRU | TMT | reference | 0.08735 |
+| MYR | TMT | reference | 0.8576 |
+| NOK | TMT | reference | 0.3731 |
+| PKR | TMT | reference | 0.012651 |
+| PLN | TMT | reference | 0.898 |
 | QAR | TMT | reference | 0.9603 |
-| RON | TMT | reference | 0.7368 |
-| RUB | TMT | reference | 0.042211 |
-| SAR | TMT | reference | 0.9327 |
-| SEK | TMT | reference | 0.3531 |
-| SGD | TMT | reference | 2.7361 |
-| THB | TMT | reference | 0.104198 |
-| TJS | TMT | reference | 0.3817 |
+| RON | TMT | reference | 0.7372 |
+| RUB | TMT | reference | 0.04234 |
+| SAR | TMT | reference | 0.9331 |
+| SEK | TMT | reference | 0.3533 |
+| SGD | TMT | reference | 2.7376 |
+| THB | TMT | reference | 0.104105 |
+| TJS | TMT | reference | 0.3813 |
 | TRY | TMT | reference | 0.0706 |
-| TWD | TMT | reference | 0.107878 |
+| TWD | TMT | reference | 0.107152 |
 | UAH | TMT | reference | 0.0777 |
 | USD | TMT | reference | 3.5 |
-| UZS | TMT | reference | 0.0002909 |
-| XDR | TMT | reference | 4.7476 |
+| UZS | TMT | reference | 0.0002907 |
+| XDR | TMT | reference | 4.742 |
 
 </details>
 
