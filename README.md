@@ -47,58 +47,58 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Turkmenistan — 48 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | TMT | reference | 0.9529 |
-| AFN | TMT | reference | 0.053888 |
+| AED | TMT | reference | 0.953 |
+| AFN | TMT | reference | 0.053896 |
 | AMD | TMT | reference | 0.009804 |
-| AUD | TMT | reference | 2.4584 |
+| AUD | TMT | reference | 2.4616 |
 | AZN | TMT | reference | 2.0649 |
-| BYN | TMT | reference | 1.1909 |
-| CAD | TMT | reference | 2.4957 |
-| CHF | TMT | reference | 4.2235 |
-| CNY | TMT | reference | 0.525 |
-| CZK | TMT | reference | 0.1602 |
-| DKK | TMT | reference | 0.5217 |
-| EGP | TMT | reference | 0.0623 |
-| EUR | TMT | reference | 3.899 |
-| GBP | TMT | reference | 4.6585 |
+| BYN | TMT | reference | 1.1893 |
+| CAD | TMT | reference | 2.4909 |
+| CHF | TMT | reference | 4.2159 |
+| CNY | TMT | reference | 0.5251 |
+| CZK | TMT | reference | 0.1598 |
+| DKK | TMT | reference | 0.5209 |
+| EGP | TMT | reference | 0.0624 |
+| EUR | TMT | reference | 3.8934 |
+| GBP | TMT | reference | 4.6529 |
 | GEL | TMT | reference | 1.3645 |
 | HKD | TMT | reference | 0.4462 |
-| ILS | TMT | reference | 1.1425 |
-| INR | TMT | reference | 0.036784 |
+| ILS | TMT | reference | 1.1303 |
+| INR | TMT | reference | 0.036745 |
 | IQD | TMT | reference | 0.0023163 |
 | IRR | TMT | reference | 0.00000189 |
-| JPY | TMT | reference | 0.022191 |
-| KGS | TMT | reference | 0.040024 |
-| KRW | TMT | reference | 0.002638 |
-| KWD | TMT | reference | 11.3599 |
-| KZT | TMT | reference | 0.007696 |
-| MDL | TMT | reference | 0.1959 |
-| MKD | TMT | reference | 0.063532 |
+| JPY | TMT | reference | 0.022183 |
+| KGS | TMT | reference | 0.040023 |
+| KRW | TMT | reference | 0.0026134 |
+| KWD | TMT | reference | 11.3526 |
+| KZT | TMT | reference | 0.007678 |
+| MDL | TMT | reference | 0.1961 |
+| MKD | TMT | reference | 0.063429 |
 | MMK | TMT | reference | 0.001672 |
 | MOP | TMT | reference | 0.4332 |
-| MRU | TMT | reference | 0.08739 |
-| MYR | TMT | reference | 0.8566 |
-| NOK | TMT | reference | 0.3762 |
-| PKR | TMT | reference | 0.012654 |
-| PLN | TMT | reference | 0.8848 |
-| QAR | TMT | reference | 0.961 |
-| RON | TMT | reference | 0.7294 |
-| RUB | TMT | reference | 0.043457 |
-| SAR | TMT | reference | 0.9326 |
-| SEK | TMT | reference | 0.3514 |
-| SGD | TMT | reference | 2.7307 |
-| THB | TMT | reference | 0.103673 |
-| TJS | TMT | reference | 0.3825 |
-| TRY | TMT | reference | 0.0703 |
-| TWD | TMT | reference | 0.107875 |
+| MRU | TMT | reference | 0.08725 |
+| MYR | TMT | reference | 0.8589 |
+| NOK | TMT | reference | 0.3752 |
+| PKR | TMT | reference | 0.012656 |
+| PLN | TMT | reference | 0.8832 |
+| QAR | TMT | reference | 0.9602 |
+| RON | TMT | reference | 0.7281 |
+| RUB | TMT | reference | 0.043446 |
+| SAR | TMT | reference | 0.9327 |
+| SEK | TMT | reference | 0.3519 |
+| SGD | TMT | reference | 2.7301 |
+| THB | TMT | reference | 0.103704 |
+| TJS | TMT | reference | 0.3821 |
+| TRY | TMT | reference | 0.0702 |
+| TWD | TMT | reference | 0.107965 |
 | UAH | TMT | reference | 0.0768 |
 | USD | TMT | reference | 3.5 |
-| UZS | TMT | reference | 0.0002949 |
-| XDR | TMT | reference | 4.7419 |
+| UZS | TMT | reference | 0.0002919 |
+| XDR | TMT | reference | 4.7342 |
 
 </details>
 
@@ -263,6 +263,7 @@ The Central Bank of Turkmenistan publishes the official manat rates every busine
 
 - Publisher's own page: [The exchange rate of the Central Bank](https://www.cbt.tm/kurs/kurs_today_en.html) · [www.cbt.tm](https://www.cbt.tm)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Turkmenistan rates page](https://allratestoday.com/central-bank-rates-api/cbt/)
+- In the API: usually by **04:20 UTC** (measured over the last 13 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
